@@ -1,0 +1,73 @@
+.containerGeneral{
+    width: 179vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .home, .galeria, .blog{
+            width: 10%;
+            height: 100%;
+            font-family: Helvetica;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+    .estructura{
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        display: flex;
+    }
+        .cuadradoTituloCuerpo{
+            width: 65%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+            .titulo{
+                width: 70%;
+                height: 20%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                font-family: helvetica;
+                font-size:xx-large;
+                font-weight: 1000;
+            }
+            .cuerpo{
+                width: 70%;
+                height: 75%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: end;
+                padding: 20px;
+                flex-direction: column;
+            }
+        .imagen{
+            width: 35%;
+            height: 76.9%;
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: start;
+            padding: 85px;
+        }
+            .imagenViajar{
+                width: 75%;
+                height: 100%;
+            }

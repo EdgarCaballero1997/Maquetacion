@@ -1,0 +1,88 @@
+.containerGeneral{
+    width: 179vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .home, .galeria, .blog{
+            width: 10%;
+            height: 100%;
+            font-family: Helvetica;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+    .estructura{
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+        .titulo{ /*No había forma de centrar el título con las propiedades
+            que hemos aprendido en clase, por lo que he tenido que tirar de
+            ChatGPT para encontrar las propiedades "position, top, left y
+            transform"
+            Os pediría que tratasen de hacer ustedes la prueba porque yo no
+            entiendo nada ya, solo quiero irme a dormir D': */
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translate(-50%);
+            /* width: 100%;
+            height: 15%; */
+            /* border: 2px solid black; */
+            font-weight: 1000;
+            font-size: xx-large;
+            font-family: Helvetica;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    .containerImagenTexto{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        /* background-color: beige; */
+        justify-content: space-around;
+    }
+        .containerImagen{
+            width: 45%;
+            height: 80%;
+            /* border: 2px solid black;
+            background-color: red; */
+            display: flex;
+            margin: 60px;
+        }
+            .imagen{
+                width: 100%;
+                height: 100%;
+            }
+                .imagenViaje{
+                    width: 100%;
+                    height: 100%;
+                }
+        .containerTexto{
+            width: 50%;
+            height: 80%;
+            /* border: 2px solid black;
+            background-color: blue; */
+            margin: 60px;
+            font-family: Helvetica;
+
+        }

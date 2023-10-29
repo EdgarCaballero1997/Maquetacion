@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.structure{
+    width: 181vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        display: flex;
+        background-color: white;
+    }
+        .container-logo{
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+            .logo{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                color: blue;
+            }
+        .container-vacio{
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .container-menu{
+            width: 70%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .home{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .most-visited{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .contact{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+    .body{
+        background-image: url(imagenes/landin-viajes.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        display: flex;
+    }
+        .body-structure{
+            width: 65%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+        }
+            .container.title{
+                width: 100%;
+                height: 35%;
+                /* border: 2px solid black; */
+                display: flex;
+            }
+                .title{
+                    width: 50%;
+                    height: 50%;
+                    /* border: 2px solid black; */
+                    font-size: xx-large;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                }
+                .container-vacioTitle{
+                    width: 50%;
+                    height: 50%;
+                    /* border: 2px solid black; */
+                }
+                    .ship{
+                        width: 100%;
+                        height: 100%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                        background-image: url(imagenes/ship-solid-24-2.png);
+                        background-repeat: no-repeat;
+                        background-position: left;
+                    }
+            .container-description{
+                width: 100%;
+                height: 65%;
+                /* border: 2px solid black; */
+                display: flex;
+            }
+                .container-vacioDescription{
+                    width: 10%;
+                    height: 70%;
+                    /* border: 2px solid black; */
+                }
+                .description{
+                    width: 90%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                }
+            .image-structure{
+                width: 35%;
+                height: 100%;
+                /* border: 2px solid black; */
+            }
+                .image{
+                    width: 100%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                }
+                    .image-crucero{
+                        width: 100%;
+                        height: 100%;
+                        /* border: 2px solid black; */
+                        padding: 20px;
+                        display: flex;
+                    }

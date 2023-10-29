@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.structure{
+    width: 181vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        display: flex;
+        background-color: white;
+    }
+        .container-logo{
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+            .logo{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        .container-vacio{
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .container-menu{
+            width: 70%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .home{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .most-visited{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .contact{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+    .body{
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        background-image: url(imagenes/fondo-formulario.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        .most-visited1{
+            width: 33%;
+            height: 85%;
+            /* border: 2px solid black; */
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            .container-formulario{
+                width: 90%;
+                height: 90%;
+                /* border: 2px solid black; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center
+            }
+                .logo-formulario{
+                    width: 70%;
+                    height: 15%;
+                    /* border: 2px solid black; */
+                    color: blue;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                .formulario{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                }
+                    .metodo-formulario{
+                        width: 100%;
+                        height: 100%;
+                        /* border: 2px solid red; */
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        #input-formulario1, #input-formulario2, #input-formulario3, #input-formulario4, #input-formulario5{
+                            width: 100%;
+                            height: 11.5%;
+                            border: 2px solid blue;
+                            border-radius: 4px;
+                            display: flex;
+                            padding: 3px;
+                            font-family: Helvetica;
+
+                        }
+                        .container-boton{
+                            width: 30%;
+                            height: 10%;
+                            /* border: 2px solid black; */
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                            #boton-formulario{
+                                width: 100%;
+                                height: 100%;
+                                background-color: blue;
+                                border-radius: 7px;
+                                color: white;
+                                box-shadow: 0 1px 1px grey;
+                            }
+                            #boton-formulario:hover{
+                                background-color: white;
+                                color: blue;
+                            }
+                            #boton-formulario:active{
+                                background-color: blue;
+                                color: white;
+                            }
+                        #container-filtrado{
+                            width: 30%;
+                            height: 10%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            
+                        }
+                            #boton-filtrado{
+                                width: 100%;
+                                height: 100%;
+                                background-color: blue;
+                                border-radius: 7px;
+                                color: white;
+                                box-shadow: 0 1px grey;
+                            }
+                            #boton-filtrado:hover{
+                                background-color: white;
+                                color: blue;
+                            }
+                            #boton-filtrado:active{
+                                background-color: blue;
+                                color: white;
+                            }

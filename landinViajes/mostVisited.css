@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.structure{
+    width: 181vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        display: flex;
+        background-color: white;
+    }
+        .container-logo{
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+            .logo{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        .container-vacio{
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .container-menu{
+            width: 70%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .home{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .most-visited{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .contact{
+                width: 100%;
+                height: 100%;
+                /* border: 2px solid black; */
+                color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+    .body{
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        background-image: url(imagenes/fondo-crucero.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .most-visited1{
+            width: 33%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+            .visited{
+                width: 100%;
+                height: 30%;
+                /* border: 2px solid black; */
+                display: flex;
+                background-color: white;
+                border-radius: 7.5px;
+            }
+                .container-title-description{
+                    width: 60%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    flex-direction: column;
+                    padding: 5px;
+                    background-color: white;
+                    border-radius: 7.5px;
+                }
+                    .title-visited{
+                        width: 100%;
+                        height: 20%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                        flex-direction: column;
+                        color: black;
+                    }
+                    
+                    .description-visited{
+                        width: 100%;
+                        height: 80%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                        color: black;
+                    }
+                .container-image{
+                    width: 40%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    padding: 2.5px;
+                    background-color: white;
+                    border-radius: 7.5px;
+                }
+                    .image1{
+                        width: 90%;
+                        height: 90%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+                        .madagascar{
+                            width: 100%;
+                            height: 100%;
+                            /* border: 2px solid black; */
+                            border-radius: 7.5px;
+                        }
+                    .image2{
+                        width: 90%;
+                        height: 90%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+                        .caribe{
+                            width: 100%;
+                            height: 100%;
+                            /* border: 2px solid black; */
+                            border-radius: 7.5px;
+                        }
+                    .image3{
+                        width: 90%;
+                        height: 90%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+                        .corea{
+                            width: 100%;
+                            height: 100%;
+                            /* border: 2px solid black; */
+                            border-radius: 7.5px;
+                        }

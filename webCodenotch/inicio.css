@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container-general{
+    width: 182vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        background-color: black;
+        display: flex;
+    }
+        .container-logo{
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .logo{
+                width: 90%;
+                height: 80%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .codenotch{
+                    color: white;
+                    display: flex;
+                    font-size: xx-large;
+                }
+        .container-separacion{
+            width: 30%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .container-inicio-cursos{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-inicio{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .inicio{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .inicio-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-cursos{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .cursos{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .cursos-txt{
+                        color: white;
+                        display: flex;
+                    }
+        .container-equipo-contacto{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-equipo{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .equipo{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .equipo-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-contacto{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .contacto{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .contacto-txt{
+                        color: white;
+                        display: flex;
+                    }
+    .body{
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        background-image: url(imagenes/landing-coden.png);
+        display: flex;
+    }
+        .container-descripcion{
+            width: 70%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .cuadro-descripcion{
+                width: 80%;
+                height: 80%;
+                /* border: 2px solid black; */
+                display: flex;
+                flex-direction: column;
+            }
+                .titulo-descripcion{
+                    width: 100%;
+                    height: 20%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    align-items: center;
+                }
+                    .titulo-landing{
+                        color: white;
+                        font-size: xx-large;
+                        display: flex;
+                    }
+                .descripcion{
+                    width: 100%;
+                    height: 65%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    align-items: center;
+                }
+                    .descripcion-landing{
+                        color: white;
+                        font-weight: 400;
+                        font-size: xx-large;
+                    }
+                .footer-descripcion{
+                    width: 100%;
+                    height: 15%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                }
+                    .footer-landing{
+                        color: white;
+                        font-size: x-large;
+                        display: flex;
+                    }

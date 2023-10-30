@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.container-general{
+    width: 182vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+}
+    .menu{
+        width: 100%;
+        height: 10%;
+        /* border: 2px solid black; */
+        background-color: black;
+        display: flex;
+    }
+        .container-logo{
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .logo{
+                width: 90%;
+                height: 80%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .codenotch{
+                    color: white;
+                    display: flex;
+                    font-size: xx-large;
+                }
+        .container-separacion{
+            width: 30%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .container-inicio-cursos{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-inicio{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .inicio{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .inicio-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-cursos{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .cursos{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .cursos-txt{
+                        color: white;
+                        display: flex;
+                    }
+        .container-equipo-contacto{
+            width: 25%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+            .container-equipo{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .equipo{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .equipo-txt{
+                        color: white;
+                        display: flex;
+                    }
+            .container-contacto{
+                width: 50%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .contacto{
+                    width: 90%;
+                    height: 80%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .contacto-txt{
+                        color: white;
+                        display: flex;
+                    }
+    .body{
+        width: 100%;
+        height: 90%;
+        /* border: 2px solid black; */
+        background-image: url(imagenes/equipo-coden.png);
+        display: flex;
+    }
+        .container-vertical1{
+            width: 33.33%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+        }
+            .container-person1{
+                width: 100%;
+                height: 33.33%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .container-margen-person1{
+                    width: 95%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 10px;
+                    /* background-color: rgb(204, 151, 204); */
+                    display: flex;
+                }
+                    .container-imagen-person1{
+                        width: 40%;
+                        height: 100%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .container-margen-imagen-person1{
+                            width: 90%;
+                            height: 90%;
+                            border: 2px solid black;
+                            border-radius: 50px;
+                            background-color: rgb(204, 151, 204);
+                            display: flex;
+                        }
+/*  */
+                    .container-descripcion-person1{
+                        width: 60%;
+                        height: 100%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                        flex-direction: column;
+                    }  
+                        .container-titulo1{
+                            width: 100%;
+                            height: 20%;
+                            border: 2px solid black;
+                            border-radius: 10px;
+                            background-color: rgb(204, 151, 204);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                            .container-margen-titulo1{
+                                width: 95%;
+                                height: 80%;
+                                /* border: 2px solid black; */
+                                display: flex;
+                            }
+                        .container-descripcion1{
+                            width: 100%;
+                            height: 80%;
+                            /* border: 2px solid black; */
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                            .container-margen-descripcion1{
+                                width: 95%;
+                                height: 90%;
+                                /* border: 2px solid black; */
+                                display: flex;
+                                align-items: center;
+                            }
+            .container-person2{
+                width: 100%;
+                height: 33.33%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .container-margen-person2{
+                    width: 95%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 10px;
+                    /* background-color: rgb(204, 151, 204); */
+                    display: flex;
+                }
+                    .container-imagen-person2{
+                        width: 40%;
+                        height: 100%;
+                        border: 2px solid black;
+                        border-radius: 50px;
+                        background-color: rgb(204, 151, 204);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .container-margen-imagen-person2{
+                            width: 90%;
+                            height: 90%;
+                            /* border: 2px solid black; */
+                            display: flex;
+                        }
+/*  */
+                    .container-descripcion-person2{
+                        width: 60%;
+                        height: 100%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                        flex-direction: column;
+                    }
+                        .container-titulo2{
+                            width: 100%;
+                            height: 20%;
+                            border: 2px solid black;
+                            border-radius: 10px;
+                            background-color: rgb(204, 151, 204);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                            .container-margen-titulo2{
+                                width: 95%;
+                                height: 80%;
+                                /* border: 2px solid black; */
+                                display: flex;
+                            }
+                        .container-descripcion2{
+                            width: 100%;
+                            height: 80%;
+                            /* border: 2px solid black; */
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                            .container-margen-descripcion2{
+                                width: 95%;
+                                height: 90%;
+                                /* border: 2px solid black; */
+                                display: flex;
+                                align-items: center;
+                            }
+            .container-person3{
+                width: 100%;
+                height: 33.33%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .container-margen-person3{
+                    width: 95%;
+                    height: 90%;
+                    /* border: 2px solid black; */
+                    border-radius: 10px;
+                    /* background-color: rgb(204, 151, 204); */
+                    display: flex;
+                }
+                    .container-imagen-person3{
+                        width: 40%;
+                        height: 100%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .container-margen-imagen-person3{
+                            width: 90%;
+                            height: 90%;
+                            border: 2px solid black;
+                            border-radius: 50px;
+                            background-color: rgb(204, 151, 204);
+                            display: flex;
+                        }
+/*  */
+                .container-descripcion-person3{
+                    width: 60%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .container-titulo3{
+                        width: 100%;
+                        height: 20%;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        background-color: rgb(204, 151, 204);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .container-margen-titulo3{
+                            width: 95%;
+                            height: 80%;
+                            /* border: 2px solid black; */
+                            display: flex;
+                        }
+                    .container-descripcion3{
+                        width: 100%;
+                        height: 80%;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        background-color: rgb(204, 151, 204);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .container-margen-descripcion3{
+                            width: 95%;
+                            height: 90%;
+                            /* border: 2px solid black; */
+                            display: flex;
+                            align-items: center;
+                        }
+        .container-vertical2{
+            width: 33.33%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+        }
+            .container-profe1{
+                width: 100%;
+                height: 50%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .container-imagen-profe1{
+                    width: 36%; /*RECUERDA QUE HAS SUMADO 1, POR SI EXPLOTAN LOS CONTAINERS*/
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .container-vacio1-imagen-profe1{
+                        width: 100%;
+                        height: 30%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+                    .container-imagen1{
+                        width: 100%;
+                        height: 40%;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        background-color: rgb(204, 151, 204);
+                        border-radius: 50px;
+                        display: flex;
+                    }
+                    .container-vacio2-imagen-profe1{
+                        width: 100%;
+                        height: 30%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+/*  */
+                .container-descripcion-profe1{
+                    width: 65%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .container-vacio1-descripcion-profe1{
+                        width: 100%;
+                        height: 20%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+                    .container-descripcion1{
+                        width: 100%;
+                        height: 60%;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        background-color: rgb(204, 151, 204);
+                        padding: 10px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .container-vacio2-descripcion-profe1{
+                        width: 100%;
+                        height: 20%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+            .container-profe2{
+                width: 100%;
+                height: 50%;
+                /* border: 2px solid black; */
+                display: flex;
+            }
+                .container-imagen-profe2{
+                    width: 36%; /*RECUERDA QUE HAS SUMADO 1, POR SI EXPLOTAN LOS CONTAINERS*/
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .container-vacio1-imagen-profe2{
+                        width: 100%;
+                        height: 30%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+                    .container-imagen2{
+                        width: 100%;
+                        height: 40%;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        background-color: rgb(204, 151, 204);
+                        border-radius: 50px;
+                        display: flex;
+                    }
+                    .container-vacio2-imagen-profe2{
+                        width: 100%;
+                        height: 30%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+/*  */
+                .container-descripcion-profe2{
+                    width: 65%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .container-vacio1-descripcion-profe2{
+                        width: 100%;
+                        height: 20%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+                    .container-descripcion2{
+                        width: 100%;
+                        height: 60%;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        background-color: rgb(204, 151, 204);
+                        padding: 10px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .container-vacio2-descripcion-profe2{
+                        width: 100%;
+                        height: 20%;
+                        /* border: 2px solid black; */
+                        display: flex;
+                    }
+        .container-vertical3{
+            width: 33.33%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+        }
+            .container-imagen-profe3{
+                width: 100%;
+                height: 20%;
+                /* border: 2px solid black; */
+                display: flex;
+            }
+                .container-vacio1-profe3{
+                    width: 30%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                }
+                .container-imagen-de-profe3{
+                    width: 40%;
+                    height: 100%;
+                    border: 2px solid black;
+                    border-radius: 50px;
+                    background-color: rgb(204, 151, 204);
+                    display: flex;
+                }
+/*  */
+                .container-vacio2-profe3{
+                    width: 30%;
+                    height: 100%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                }
+            .container-descripcion-profe3{
+                width: 100%;
+                height: 50%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .container-margen-descripcion-profe3{
+                    width: 95%;
+                    height: 93%;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    background-color: rgb(204, 151, 204);
+                    padding: 10px;
+                    display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                }
+            .container-logo-escuela{
+                width: 100%;
+                height: 30%;
+                /* border: 2px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .container-margen-logo-escuela{
+                    width: 72%;
+                    height: 60%;
+                    /* border: 2px solid black; */
+                    font-size: xx-large;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }

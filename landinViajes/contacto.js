@@ -41,10 +41,21 @@ function guardarInformacion() {
 //Con este fragmento de código permitimos que la función se active cada vez que
 //el cliente pincha en el botón.
 let botonSolicitarInfo = document.getElementById('boton-formulario');
-botonSolicitarInfo.addEventListener('click', guardarInformacion);
+botonSolicitarInfo.addEventListener('click', guardarInformacion());
 //Creamos la segunda función para filtrar y mostrar las solicitudes con destino
 //en Canarias, Mallorca o Galicia.
 function filtrarSolicitudes() {
+    // let filtrado = "";
+    // for(let i = 0; i < informacionArray.length; i++){
+    //     if(informacionArray[i].destino == "Canarias" || informacionArray[i].destino == "Mallorca" || informacionArray[i].destino == "Galicia"){
+    //         filtrado += `nombre: ${informacionArray[i].nombre}
+    //                     origen: ${informacionArray[i].origen}
+    //                     destino: ${informacionArray[i].destino}
+    //                     numPersonas: ${nPersonas}
+    //                     fechas: ${informacionArray[i].fechas}`;
+    //     }
+    //     console.log(filtrado);
+    // }
     let destinosPermitidos = ['canarias', 'mallorca', 'galicia'];
     let solicitudesFiltradas = informacionArray.filter(infoObject => {
         return destinosPermitidos.includes(infoObject.destino);
@@ -53,15 +64,15 @@ function filtrarSolicitudes() {
 //funciones se ejecutan correctamente.
     console.log('Solicitudes con destino en Canarias, Mallorca o Galicia:');
     solicitudesFiltradas.forEach(info => {
-        console.log('Nombre:', infoObject.nombre);
-        console.log('Origen:', infoObject.origen);
-        console.log('Destino:', infoObject.destino);
-        console.log('Nº de personas:', infoObject.nPersonas);
-        console.log('Fechas:', infoObject.fechas);
+        console.log('Nombre:', info.nombre);
+        console.log('Origen:', info.origen);
+        console.log('Destino:', info.destino);
+        console.log('Nº de personas:', info.nPersonas);
+        console.log('Fechas:', info.fechas);
         console.log('---');
     });
 }
 //Con este código cada vez que el cliente haga click sobre elotón "filtrar
 //busqueda" la función de filtrado se ejecuta.
 let botonFiltrado = document.getElementById('boton-filtrado');
-botonFiltrado.addEventListener('click', filtrarSolicitudes);
+botonFiltrado.addEventListener('click', filtrarSolicitudes());

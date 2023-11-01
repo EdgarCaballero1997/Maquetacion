@@ -55,6 +55,7 @@ body{
             }
             .container-inicio:hover{
                 background-color: rgb(248, 110, 172);
+                transition: background 0.15s linear;
             }
             .container-quienSoy{
                 width: 14.28%;
@@ -66,6 +67,7 @@ body{
             }
             .container-quienSoy:hover{
                 background-color: rgb(248, 110, 172);
+                transition: background 0.15s linear;
             }
             .container-tecnologia{
                 width: 14.28%;
@@ -77,6 +79,7 @@ body{
             }
             .container-tecnologia:hover{
                 background-color: rgb(248, 110, 172);
+                transition: background 0.15s linear;
             }
             .container-trabajos{
                 width: 14.28%;
@@ -88,6 +91,7 @@ body{
             }
             .container-trabajos:hover{
                 background-color: rgb(248, 110, 172);
+                transition: background 0.15s linear;
             }
             .container-contacto{
                 width: 14.28%;
@@ -99,6 +103,7 @@ body{
             }
             .container-contacto:hover{
                 background-color: rgb(248, 110, 172);
+                transition: background 0.15s linear;
             }
     .container-body{
         width: 100%;

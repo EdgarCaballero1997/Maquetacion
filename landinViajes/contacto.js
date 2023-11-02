@@ -53,11 +53,11 @@ function filtrarSolicitudes() {
 //funciones se ejecutan correctamente.
     console.log('Solicitudes con destino en Canarias, Mallorca o Galicia:');
     solicitudesFiltradas.forEach(info => {
-        console.log('Nombre:', infoObject.nombre);
-        console.log('Origen:', infoObject.origen);
-        console.log('Destino:', infoObject.destino);
-        console.log('Nº de personas:', infoObject.nPersonas);
-        console.log('Fechas:', infoObject.fechas);
+        console.log('Nombre:', info.nombre);
+        console.log('Origen:', info.origen);
+        console.log('Destino:', info.destino);
+        console.log('Nº de personas:', info.nPersonas);
+        console.log('Fechas:', info.fechas);
         console.log('---');
     });
 }

@@ -119,6 +119,7 @@ body{
                     height: 80%;
                     /* border: 2px solid black; */
                     display: flex;
+                    flex-direction: column;
                 }
                     .metodo-formulario{
                         width: 100%;
@@ -137,8 +138,15 @@ body{
                             display: flex;
                             padding: 3px;
                             font-family: Helvetica;
-
                         }
+                    .container-botones{
+                        width: 100%;
+                        height: 10%;
+                        /* border: 2px solid red; */
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                    }
                         .container-boton{
                             width: 30%;
                             height: 10%;
@@ -147,43 +155,45 @@ body{
                             align-items: center;
                             justify-content: center;
                         }
-                            #boton-formulario{
-                                width: 100%;
+                            .container-boton{
+                                width: 30%;
                                 height: 100%;
-                                background-color: blue;
-                                border-radius: 7px;
-                                color: white;
-                                box-shadow: 0 1px 1px grey;
+                                display: flex;
                             }
-                            #boton-formulario:hover{
-                                background-color: white;
-                                color: blue;
-                            }
-                            #boton-formulario:active{
-                                background-color: blue;
-                                color: white;
-                            }
-                        #container-filtrado{
-                            width: 30%;
-                            height: 10%;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            
-                        }
-                            #boton-filtrado{
-                                width: 100%;
+                                #boton-formulario{
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: blue;
+                                    border-radius: 7px;
+                                    color: white;
+                                    box-shadow: 0 1px 1px grey;
+                                }
+                                #boton-formulario:hover{
+                                    background-color: white;
+                                    color: blue;
+                                }
+                                #boton-formulario:active{
+                                    background-color: blue;
+                                    color: white;
+                                }
+                            .container-filtrado{
+                                width: 30%;
                                 height: 100%;
-                                background-color: blue;
-                                border-radius: 7px;
-                                color: white;
-                                box-shadow: 0 1px grey;
+                                display: flex;
                             }
-                            #boton-filtrado:hover{
-                                background-color: white;
-                                color: blue;
-                            }
-                            #boton-filtrado:active{
-                                background-color: blue;
-                                color: white;
-                            }
+                                #boton-filtrado{
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: blue;
+                                    border-radius: 7px;
+                                    color: white;
+                                    box-shadow: 0 1px grey;
+                                }
+                                #boton-filtrado:hover{
+                                    background-color: white;
+                                    color: blue;
+                                }
+                                #boton-filtrado:active{
+                                    background-color: blue;
+                                    color: white;
+                                }

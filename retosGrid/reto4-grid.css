@@ -1,0 +1,101 @@
+.container-general{
+    display: grid;
+    grid-template-areas: "header"
+                         "body"
+                         "footer";
+}
+    .container-header{
+        display: grid;
+        grid-template-areas: "header header image";
+    }
+        .container-left-header{
+            height: 70px;
+            background-color: brown;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            grid-area: header;
+        }
+        .container-right-image{
+            background-color: rgb(103, 12, 12);
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            grid-area: image;
+        }
+    .container-body1{
+        grid-template-areas: "body";
+    }
+        .container-body{
+            height: 600px;
+            background-color: rgb(194, 88, 88);
+            grid-area: body;
+            display: grid;
+            grid-template-areas: "body-left body-right";
+            grid-template-columns: 1fr 2fr;
+        }
+            .body-left{
+                background-color: rgb(255, 132, 0);
+                grid-area: body-left;
+                display: grid;
+                grid-template-areas: "header"
+                                     "midle"
+                                     "footer";
+            }
+                .container-aside1{
+                    background-color: white;
+                    color: rgb(255, 132, 0);
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px;
+                    margin: 10px;
+                    grid-area: header;
+                }
+                .container-middle{
+                    grid-area: midle;
+                }
+                .container-aside2{
+                    background-color: white;
+                    color: rgb(255, 132, 0);
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px;
+                    margin: 10px;
+                    grid-area: footer;
+                }
+            .body-right{
+                background-color: rgb(255, 51, 0);
+                grid-area: body-right;
+                display: grid;
+                grid-template-areas: "superior"
+                                     "inferior";
+            }
+                .container-superior{
+                    border: 2px solid white;
+                    color: white;
+                    grid-area: superior;
+                    padding: 5px;
+                    margin: 10px;
+                    display: flex;
+                    justify-content: center;
+                }
+                .container-inferior{
+                    border: 2px solid white;
+                    color: white;
+                    grid-area: inferior;
+                    padding: 5px;
+                    margin: 10px;
+                    display: flex;
+                    justify-content: center;
+                }
+    .container-footer{
+        height: 70px;
+        background-color: rgb(103, 12, 12);
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        grid-area: footer;
+    }

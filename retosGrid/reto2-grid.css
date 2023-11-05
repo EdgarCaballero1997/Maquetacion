@@ -1,0 +1,42 @@
+.containers{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.25fr 0.5fr 1.25fr 1.25fr 0.5fr 1.25fr;
+    grid-template-rows: 1.25fr 0.75fr;
+}
+    .container-a{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: greenyellow;
+    }
+    .container-b{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: black;
+    }
+    .container-c{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: greenyellow;
+    }
+    .container-d{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: black;
+    }
+    .container-e{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: greenyellow;
+    }
+    .container-f{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: black;
+    }

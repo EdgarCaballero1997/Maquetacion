@@ -1,0 +1,42 @@
+.containers{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 525px 300px 525px;
+    grid-template-rows: 350px 350px;
+}
+    .containerA{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: greenyellow;
+    }
+    .containerB{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: orange;
+    }
+    .containerC{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: orangered;
+    }
+    .containerD{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: red;
+    }
+    .containerE{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: blue;
+    }
+    .containerF{
+        display: flex;
+        justify-content: center;
+        color: black; /* Le he dado black porque si no no se ve en pantalla */
+        background-color: yellow;
+    }
